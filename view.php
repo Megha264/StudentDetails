@@ -34,11 +34,7 @@
                $database = 'student';
                $port = 3306;
 
-               $host = 'localhost';
-                $user = 'root';
-                $password = '';
-                $database = 'student';
-               $port = 3306;
+               
                 $con = mysqli_connect($host, $user, $password, $database, $port);
                 $query = "SELECT * FROM `stud`";
                 $result = mysqli_query($con, $query);
